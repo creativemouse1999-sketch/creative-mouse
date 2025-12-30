@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Creative Mouse</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f0f2f5;
+            color: #333;
+        }
+
+        /* ===== ẢNH BÌA ===== */
+        .cover {
+            height: 280px;
+            background-image: url("images/cover.png");
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ===== KHỐI LOGO + TÊN (ĐÈ LÊN ẢNH BÌA) ===== */
+        .profile {
+            max-width: 900px;
+            margin: -30px auto 0;
+            padding: 0 20px;
+
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* LOGO */
+        .logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 12px;
+            background: white;
+            padding: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Thuơng hiệu giáo dục đa phương tiện Creative Mouse  */
+        .profile-text h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .profile-text p {
+            margin: 6px 0 0;
+            color: #666;
+        }
+
+        /* ===== NỘI DUNG ===== */
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 14px;
+            background: #1877f2;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .contact-btn:hover {
+            background: #145dbf;
+        }
+
+        .youtube-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 14px;
+            background: #FF0000;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .youtube-btn:hover {
+            background: #b63030;
+        }
+        .youtube-icon {
+        width: 40px;
+        height: 40px;
+        }
+        .facebook-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 14px;
+            background: #3B5998;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .facebook-btn:hover {
+            background: #425275;
+        }
+        .facebook-icon {
+        width: 22px;
+        height: 22px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #888;
+        }
+
+        /* ===== MOBILE ===== */
+        @media (max-width: 600px) {
+            .profile {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .logo {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ảnh bìa -->
+    <div class="cover"></div>
+
+    <!-- Logo + Tên -->
+    <div class="profile">
+        <img src="images/logo.png" alt="Logo website" class="logo">
+
+        <div class="profile-text">
+            <h1>Creative mouse</h1>
+            <p>Vì trí tuệ Việt</p>
+        </div>
+    </div>
+
+    <!-- Nội dung -->
+    <section>
+        <h2>Thương hiệu giáo dục đa phương tiện</h2>
+        <p>
+            Trang web này đang chờ cập nhật các nội dung tương lai
+        </p>
+
+        <a class="contact-btn" href="mailto:creative.mouse.1999@gmail.com">
+            contact for more information
+        </a>
+    <!-- Link youtube -->
+        <a class="contact-btn youtube-btn"
+       href="https://www.youtube.com/@MouseCreative.1999"
+       target="_blank">
+        <img src="images/youtube.png" alt="YouTube" class="youtube-icon">
+        Youtube
+    </a>
+    <!-- Link facebook -->
+        <a class="contact-btn facebook-btn"
+       href="https://www.facebook.com/profile.php?id=61585473977190"
+       target="_blank">
+        <img src="images/facebook.png" alt="YouTube" class="facebook-icon">
+        Facebook
+    </a>
+
+    </section>
+
+    <footer>
+        Hotline - 0933883329
+        © 2025 - tạo bởi Nguyen Hoang Minh Hau
+    </footer>
+
+</body>
+</html>
