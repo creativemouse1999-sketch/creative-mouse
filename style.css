@@ -52,7 +52,7 @@ body {
 /* ===== NỘI DUNG ===== */
 section {
     max-width: 900px;
-    margin: 40px auto;
+    margin: 4px auto;
     padding: 0 20px;
 }
 
@@ -60,9 +60,9 @@ section {
 .contact-btn {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    margin-top: 10px;
-    padding: 14px;
+    gap: 2px;
+    margin-top: 12px;
+    padding: 10px;
     background: #1877f2;
     color: white;
     text-decoration: none;
@@ -76,31 +76,39 @@ section {
 
 /* YOUTUBE */
 .youtube-btn {
-    background: #f3030f;
+    margin-top: 12px;
+    display: inline-flex;
+    align-items: center;
+    background: #FF0000;
 }
 
 .youtube-btn:hover {
-    background: #bd1624;
+    background: #b63030;
 }
 
 .youtube-icon {
-    width: 22px;
-    height: 22px;
+    margin-top: 0px;
+    width: 18px;
+    height: 10px;
     object-fit: contain;
 }
 
 /* FACEBOOK */
 .facebook-btn {
-    background: #f3030f;
+    margin-top: 12px;
+    display: inline-flex;
+    align-items: center;
+    background: #3B5998;
 }
 
 .facebook-btn:hover {
-    background: #bd1624;
+    background: #425275;
 }
 
 .facebook-icon {
-    width: 22px;
-    height: 22px;
+    margin-top: 0px;
+    width: 18px;
+    height: 10px;
     object-fit: contain;
 }
 
