@@ -89,6 +89,21 @@ section {
     object-fit: contain;
 }
 
+/* FACEBOOK */
+.facebook-btn {
+    background: #f3030f;
+}
+
+.facebook-btn:hover {
+    background: #bd1624;
+}
+
+.facebook-icon {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
 /* FOOTER */
 footer {
     text-align: center;
